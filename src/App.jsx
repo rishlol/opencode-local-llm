@@ -1,7 +1,7 @@
 import { useState, useReducer, useEffect, useRef, useCallback, useMemo } from 'react'
 import { uid, buildURL, parseURL, makeProvider, serializeConfig, parseConfig, validate, getModelHint } from './Utilities'
 import { LS_KEY, TEMPLATES } from './Constants'
-import { useApp, AppCtx } from './context'
+import { useApp, AppCtx } from './Context'
 import EmptyState from './components/EmptyState'
 import ProviderList from './components/ProviderList'
 import ToastContainer from './components/ToastContainer'
