@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import { useApp } from "../../context";
+import { useApp } from "../../Context";
 import hljs from 'highlight.js/lib/core'
 
 export default function JSONPreview({ json, onToggle }) {

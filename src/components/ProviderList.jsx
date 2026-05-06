@@ -1,4 +1,4 @@
-import { useApp } from "../context";
+import { useApp } from "../Context";
 import ProviderCard from "./provider/ProviderCard";
 
 export default function ProviderList({ providers }) {

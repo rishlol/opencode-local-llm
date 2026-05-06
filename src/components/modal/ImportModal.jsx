@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { useApp } from "../../context";
+import { useApp } from "../../Context";
 import Modal from "../Modal";
 import { parseConfig } from "../../Utilities";
 

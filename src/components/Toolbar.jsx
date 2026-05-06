@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useApp } from "../context";
+import { useApp } from "../Context";
 import { serializeConfig } from "../Utilities";
 import Tooltip from "./ui/Tooltip";
 

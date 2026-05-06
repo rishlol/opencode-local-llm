@@ -1,4 +1,4 @@
-import { useApp } from "../../context";
+import { useApp } from "../../Context";
 
 export default function DefaultModelSelector() {
     const { state, dispatch } = useApp();

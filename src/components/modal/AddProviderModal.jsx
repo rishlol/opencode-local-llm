@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useApp } from "../../context";
+import { useApp } from "../../Context";
 import { makeProvider } from "../../Utilities";
 import { TEMPLATES } from "../../Constants";
 import Modal from "../Modal";
